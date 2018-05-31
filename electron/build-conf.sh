@@ -22,7 +22,7 @@ if [ -n "$1" ]; then
     GOX_OSARCH="$1"
 else
 #    GOX_OSARCH="linux/amd64 linux/arm windows/amd64 windows/386 darwin/amd64"
-    GOX_OSARCH="darwin/amd64"
+    GOX_OSARCH="linux/amd64 windows/amd64 darwin/amd64"
 fi
 
 # GOX_OSARCH="linux/amd64 darwin/amd64"
